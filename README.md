@@ -1,7 +1,2 @@
 # slowdns
-instalação automática - slowdns dnstt-server
-
-wget https://raw.githubusercontent.com/Waldo60/relentiza/main/dnstt-install; chmod +x dnstt-install; ./dnstt-install
-
-
-wget ; chmod +x install; ./install
+wget https://raw.githubusercontent.com/Waldo60/adm-woli.slowdns/main/dnstt-install; chmod +x dnstt-install; ./dnstt-install
