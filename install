@@ -75,6 +75,6 @@ echo -e "\033[1;31m════════════════════�
 echo ""
 echo -e "          \033[1;33mINSTALACION COMPLETA!\033[0m          "
 echo ""
-echo -e "Para abrir o menu, use o comando: \033[1;33mwolislow\033[0m"
+echo -e "Para abrir o menu, use o comando: \033[1;33m'slowdns'\033[0m"
 cd
 rm install
