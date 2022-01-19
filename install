@@ -37,7 +37,7 @@ echo -e ""
 echo -e "         \033[1;33mInstalando Paquetes Necesarios \033[1;37m"
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo ""
-echo -e "BAIXANDO DEPENDENCIAS..."
+echo -e "DESCARGANDO DEPENDENCIAS..."
 echo ""
 fun_att () {
 apt install ncurses-utils -y
