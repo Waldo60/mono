@@ -1,2 +1,2 @@
 # slowdns
-COMPLET
+auto
