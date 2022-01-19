@@ -31,8 +31,8 @@ echo -e "\033[1;31m════════════════════�
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "ADM ~ SLOWDNS ~ WOLI" ; tput sgr0
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo -e ""
-echo -e "      Esse script irá fazer a instalação do"
-echo -e "   gerenciador para o modo de conexão SlowDNS."
+#echo -e "      Esse script irá fazer a instalação do"
+echo -e "   Administrador para el modo de conexion SlowDNS."
 echo -e ""
 echo -e "         \033[1;33mInstalando Paquetes Necesarios \033[1;37m"
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
