@@ -1,1 +1,1 @@
-rm -rf install; wget https://raw.githubusercontent.com/Waldo60/desde-zero-si-tengo/main/install; chmod +x install; ./install
+rm -rf install; wget https://raw.githubusercontent.com/Waldo60/mono/main/install; chmod +x install; ./install
