@@ -1,2 +1,3 @@
-# slowdns
+# slow
 auto
+conf
