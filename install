@@ -54,13 +54,13 @@ wget https://raw.githubusercontent.com/Waldo60/mono/main/slowdns; chmod +x slowd
 wget https://raw.githubusercontent.com/Waldo60/mono/main/stopdns; chmod +x stopdns
 }
 fun_bar 'fun_att'
-echo -e "CONFIGURANDO FIREWALL..."
+echo -e "CONFIGURANDO CORTAFUEGOS..."
 echo ""
 fun_ports () {
 apt install firewalld -y && sudo firewall-cmd --zone=public --permanent --add-port=80/tcp && sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp && sudo firewall-cmd --zone=public --permanent --add-port=443/tcp && sudo firewall-cmd && sudo firewall-cmd --zone=public --permanent --add-port=53/udp && sudo firewall-cmd --zone=public --permanent --add-port=5300/udp && sudo firewall-cmd && sudo firewall-cmd --zone=public --permanent --add-port=2222/tcp && sudo firewall-cmd --reload
 }
 fun_bar 'fun_ports'
-echo -e "DEFININDO DNS DO CLOUDFLARE..."
+echo -e "CONFIGURANDO DNS CLOUDFLARE..."
 echo ""
 fun_dnscf () {
 sudo systemctl disable systemd-resolved.service && sudo systemctl stop systemd-resolved.service && sudo mv /etc/resolv.conf /etc/resolv.conf.bkp && echo "nameserver 1.1.1.1" > /etc/resolv.conf
