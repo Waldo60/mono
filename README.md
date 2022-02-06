@@ -1,3 +1,3 @@
 # slow
 _auto_
-conf
+_config_
